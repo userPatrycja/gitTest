@@ -1,0 +1,7 @@
+git status - sprawdza status
+git add <file> - dodaje konkretny file do repozytorium
+git add . - dodaje wszystkie mozliwe pliki do repozytorium
+git commit -m "Komentarz - obowiazkowy" - commituje wszystkie pliki, czyli dodaje je
+git -a -m "Komentarz" mozna zastosowac zeby jednoczesnie zmiany zostaly dodane i zacommitowane, mozna stosowac tylko dla trackowanych plikow - czyli takich ktore zostaly juz raz dodane i sa teraz modyfikowane 
+git log - pozwala sprawdzic cala historie, kto kiedy co dodawal
+git log -p - pozwala okreslic co dokladnie bylo zmieniane w danych commitach
