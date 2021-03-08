@@ -15,4 +15,6 @@ git reset --hard <nazwa commita> - usuwa calego commita
 git checkout -b - przepiecie na branchu
 git branche - sprawdzenie na jakim branchu jestesmy
 Dzieki mozliwosci zmiany branchu mozemy posiadac rozne wersje naszego kodu wszystkich branchow
-git push origin --all = pushowan
+git push origin --all = pushowan wszystkich brannchow
+git push origin <nazwa branchu> - pushowanie zmian na poszczegolne branche
+git pull origin <nazwa brancha> = git fetch + git merge
