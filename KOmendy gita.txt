@@ -5,3 +5,14 @@ git commit -m "Komentarz - obowiazkowy" - commituje wszystkie pliki, czyli dodaj
 git -a -m "Komentarz" mozna zastosowac zeby jednoczesnie zmiany zostaly dodane i zacommitowane, mozna stosowac tylko dla trackowanych plikow - czyli takich ktore zostaly juz raz dodane i sa teraz modyfikowane 
 git log - pozwala sprawdzic cala historie, kto kiedy co dodawal
 git log -p - pozwala okreslic co dokladnie bylo zmieniane w danych commitach
+git checkout <commit> - przepisanie sie do innego stanu, np do innego commita, zeby np. sprawdzic czy dana funckjonalnosc wtedy dziala
+git checkoout master - pozwala wrocic do master, ostatniego comminta
+git clean -n - pokazuje pliki nietrackowane do usuniecia
+git clean -f - usuwa nietrackowane pliki z repozytorium
+git reset HEAD <nazwa pliku> - usuniecie pliku z indexu, ktory jest gotowy do commitu ( jest trackowany); po tej komendzie bedzie widoczny jak nietrackowany
+git revert <nazwa commita> - pozwala cofnac zmiany z danego commita
+git reset --hard <nazwa commita> - usuwa calego commita
+git checkout -b - przepiecie na branchu
+git branche - sprawdzenie na jakim branchu jestesmy
+Dzieki mozliwosci zmiany branchu mozemy posiadac rozne wersje naszego kodu wszystkich branchow
+git push origin --all = pushowan
